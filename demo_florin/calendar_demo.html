@@ -1,0 +1,42 @@
+<html !doctype>
+
+  <head>
+  
+    <meta charset="utf-8">
+    <title>Calendar evenimente</title>
+
+<link rel="stylesheet" type="text/css" href="css/evo-calendar.css"/>
+<link rel="stylesheet" type="text/css" href="css/evo-calendar.midnight-blue.css"/>
+
+  </head>
+  
+  <body>
+
+<div id="eCalendar"></div>
+<br>
+<span style="padding: 50px;">Legendă: <span style="color:#008c23">&#11044;</span> - vizită, <span style="color:#ffff00">&#11044;</span> - proiecţie multimedia, <span style="color:#0000ff">&#11044;</span> - workshop</span>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/evo-calendar.js"></script>
+<script type="text/javascript" src="js/evenimente.js"></script>
+
+<script type="text/javascript">
+$('#eCalendar').evoCalendar({
+  theme: 'Default',
+  firstDayOfWeek: 1, //Luni
+  // theme: 'Midnight Blue',
+  // theme: 'Orange Coral',
+  // theme: 'Royal Navy',
+  todayHighlight: false,
+  language: 'ro',
+  format: 'mm/dd/yyyy',
+  titleFormat: 'MM yyyy',
+  eventHeaderFormat: 'd MM yyyy',
+  // evenimentele aici
+  calendarEvents: myEvents
+});
+</script>
+
+  </body>
+  
+</html>
