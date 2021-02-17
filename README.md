@@ -12,6 +12,11 @@ _Simple Modern-looking Event Calendar_
 
 ![Evo Calendar Preview](/img/thumbnail.png)
 
+## :eyes: Demo by Florin:
+http://florincatalin.freesite.vip/demo/calendar/calendar.html
+
+![Evo Calendar Preview](https://raw.githubusercontent.com/florincatalin/evo-calendar/master/img/Screenshot_2021-02-17%20Calendar%20evenimente.png)
+
 ## :bulb: Features:
 * Flexible and fully customizable
 * Responsive Calendar (desktop, tablet and mobile)
