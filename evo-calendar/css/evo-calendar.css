@@ -270,7 +270,7 @@ tr.calendar-body .calendar-day .day[disabled] {
     right: 0;
     width: 400px;
     height: 100%;
-    padding: 70px 30px 60px 30px;
+    padding: 50px 30px 60px 30px;
     background-color: #fbfbfb;
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -294,9 +294,10 @@ tr.calendar-body .calendar-day .day[disabled] {
 }
 
 .calendar-events > .event-header > p {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     color: #5a5a5a;
+		text-align: center;
 }
 #eventListToggler {
     position: absolute;
@@ -404,8 +405,8 @@ tr.calendar-body .calendar-day .day[disabled] {
 }
 .event-container > .event-info > p.event-title {
     position: relative;
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 400;
 }
 .event-container > .event-info > p.event-title > span {
     position: absolute;
