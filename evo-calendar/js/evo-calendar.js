@@ -127,18 +127,18 @@
                         closeSidebarText: "Sluit de zijbalk",
                         closeEventListText: "Sluit de event lijst"
                     },
-                    id: {
-                        days: ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"],
-                        daysShort: ["Min", "Sen", "Sel", "Rab", "Kam", "Jum", "Sab"],
-                        daysMin: ["Mi", "Sn", "Sl", "Ra", "Ka", "Ju", "Sa"],
-                        months: ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"],
-                        monthsShort: ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"],
-                        noEventForToday: "Tidak ada Acara untuk Sekarang.. Jadi Beristirahatlah! :)",
-                        noEventForThisDay: "Tidak ada Acara untuk Hari Ini.. Jadi Beristirahatlah! :)",
-                        previousYearText: "Tahun Sebelumnya",
-                        nextYearText: "Tahun Berikutnya",
-                        closeSidebarText: "Tutup Sidebar",
-                        closeEventListText: "Tutup Daftar Acara"
+                    ro: {
+                        days: ["Duminică", "Luni", "Marţi", "Miercuri", "Joi", "Vineri", "Sâmbătă"],
+                        daysShort: ["Du", "Lu", "Ma", "Mie", "Joi", "Vi", "Sa"],
+                        daysMin: ["D", "L", "Ma", "Mi", "J", "V", "S"],
+                        months: ["Ianuarie", "Februarie", "Martie", "Aprilie", "Mai", "Iunie", "Iulie", "August", "Septembrie", "Octombrie", "Noiembrie", "Decembrie"],
+                        monthsShort: ["Ian", "Feb", "Mar", "Apr", "Mai", "Iun", "Iul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                        noEventForToday: "No event for today.. so take a rest! :)",
+                        noEventForThisDay: "Niciun eveniment planificat pentru această zi!",
+                        previousYearText: "Anul precedent",
+                        nextYearText: "Anul următor",
+                        closeSidebarText: "Închide bara laterală",
+                        closeEventListText: "Închide lista evenimentelor"
                     }
                 }
             }
@@ -275,7 +275,7 @@
     // v1.0.0 - Limit title (...)
     EvoCalendar.prototype.limitTitle = function(title, limit) {
         var newTitle = [];
-        limit = limit === undefined ? 18 : limit;
+        limit = limit === undefined ? 24 : limit;
         if ((title).split(' ').join('').length > limit) {
             var t = title.split(' ');
             for (var i=0; i<t.length; i++) {
@@ -581,7 +581,7 @@
 
             // events
             markup += '<div class="calendar-events">'+
-                            '<div class="event-header"><p></p></div>'+
+                            '<div class="event-header" style="text-align: center">Activităţi programate în data de<p></p></div>'+
                             '<div class="event-list"></div>'+
                         '</div>';
 
