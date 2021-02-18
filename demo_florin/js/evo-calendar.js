@@ -133,7 +133,7 @@
                         daysMin: ["D", "L", "Ma", "Mi", "J", "V", "S"],
                         months: ["Ianuarie", "Februarie", "Martie", "Aprilie", "Mai", "Iunie", "Iulie", "August", "Septembrie", "Octombrie", "Noiembrie", "Decembrie"],
                         monthsShort: ["Ian", "Feb", "Mar", "Apr", "Mai", "Iun", "Iul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-                        noEventForToday: "No event for today.. so take a rest! :)",
+                        noEventForToday: "Niciun eveniment planificat pentru astăzi!",
                         noEventForThisDay: "Niciun eveniment planificat pentru această zi!",
                         previousYearText: "Anul precedent",
                         nextYearText: "Anul următor",
